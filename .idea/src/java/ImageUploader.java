@@ -8,5 +8,7 @@ public interface ImageUploader {
      * @return
      */
     boolean uploadImage(byte[] imageData, String productId, int markerId);
+    boolean uploadImage(byte[] imageData, String productId);
+    boolean uploadSticker(byte[] imageData, String stickerId);
 }
 
